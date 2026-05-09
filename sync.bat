@@ -42,8 +42,7 @@ exit /b
 
 )
 
-git push origin main
-
+git push origin v4
 if %errorlevel% equ 0 (
 
 echo 同步成功！网站将在几分钟内更新。
