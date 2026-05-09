@@ -4,7 +4,7 @@ chcp 65001 >nul
 
 title Quartz 笔记一键同步
 
-cd /d "C:\Users\tourl\101littlebird.github.io"
+cd /d "C:\Users\tour1\101littlebird.github.io"
 
 echo ==============================
 
