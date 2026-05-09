@@ -12,6 +12,14 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
+    // ... 你现有的其他配置（pageTitle、baseUrl、locale 等）
+
+  markdown: {
+
+useRelativeLinks: true, // 开启相对路径支持，让图片/链接正常工作
+
+    },
+// ... 其他配置
     analytics: {
       provider: "plausible",
     },
@@ -24,7 +32,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Noto Sans SC",//支持中文字体
-        body: "Noto Sans Sc",
+        body: "Noto Sans SC",
         code: "JetBrains Mono",
       },
       colors: {
@@ -89,7 +97,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      //Plugin.CustomOgImages(),
     ],
   },
 }
